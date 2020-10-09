@@ -46,7 +46,7 @@ implements ActionListener{
 				Board[i][j]="_";
 			}
 		}
-		if(isPlayerWon==true) makeComputerMove();
+		//if(isPlayerWon==true) makeComputerMove();
 	}
 	public void boardInit() {
 		Board= new String[3][3];
